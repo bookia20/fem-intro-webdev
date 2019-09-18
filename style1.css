@@ -1,0 +1,77 @@
+* {
+    box-sizing:border-box;
+}
+
+.brand-header{
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.story{
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+.story-title{
+    font-weight: normal;
+    font-style: italic;
+    font-size:30px;
+    text-align: center;
+}
+
+.story-text{
+    line-height: 1.5;
+}
+
+.quarter{
+    width:25%;
+}
+
+.half{
+    width:50%;
+}
+
+.three-quarter{
+    width: 75%;
+}
+
+.nav-list{
+    display: flex;
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    flex:1;
+    align-items:  
+}
+
+.nav-item a {
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Futura";
+    color:#666;   
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+.nav-item:nth-child(1){background-color: #333}
+.nav-item:nth-child(2){background-color: #444}
+.nav-item:nth-child(3){background-color: #555}
+.nav-item:nth-child(4){background-color: #99}
+.nav-item:nth-child(5){background-color: #777}

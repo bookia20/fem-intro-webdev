@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.brand-header{
+    border-bottom: 3px solid black;
+}
+
+.brand{
+    font-family: "Snell Roundhand";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    align-items: stretch;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-bottom: 3px solid black;
+}
+
+.article-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.article{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.half-article{
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    width: 50%;
+}
+
+.quarter-article{
+    width: 25%;
+}
+
+.article-img {
+    width: 100%;
+}
+
+.site-section-list{
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 75%;
+}
+
+.site-section{
+    display: flex;
+    background-color: cyan;
+    align-items: center;
+    flex: 1;
+}
+
+.site-section-technology{
+    background-color: darkgrey;
+}
+
+.section-link {
+    color: black;
+    text-decoration: none;
+    font-size:20px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666;   
+}
+
+.section-link:hover{
+    text-decoration-line: underline;
+}
